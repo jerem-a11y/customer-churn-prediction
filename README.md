@@ -20,4 +20,5 @@ This project builds a customer churn prediction model using **Logistic Regressio
 ## How to Run
 1. Clone the repository:
 ```bash
-git clone https://github.com/jerem-a11y/customer-churn-prediction.git
+https://github.com/jerem-a11y/customer-churn-prediction
+
