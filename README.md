@@ -1,24 +1,27 @@
-# Customer Churn Prediction
+# Customer Churn Prediction using Explainable Machine Learning
 
-This project builds a customer churn prediction model using **Logistic Regression** and **SHAP** for model interpretability.
+This repository includes an end-to-end machine learning project that uses **Logistic Regression** to forecast customer churn and **SHAP** to explain model decisions.
 
-## Dataset
-- **Telco Customer Churn Dataset (IBM)**
-- Source: [Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
-- Downloaded programmatically using `kagglehub` in the notebook
-- Target variable: `Churn` (Yes / No)
+## Overview of the Project
+Businesses can identify clients who are likely to discontinue using a service by employing customer churn prediction. Customers are classified as either churned or not in this research using a supervised learning approach based on billing, service usage, and demographic data.
 
-## Methodology
-- Data preprocessing (missing values, encoding, scaling)
-- Logistic Regression model training and evaluation
-- Model interpretability with SHAP
+## DatasetIBM Sample Data from the Telco Customer Churn Dataset
+Kaggle is the source.
+It includes account information, service data, and consumer demographics.
+The target variable is called "Churn."
 
-## Results
-- Accuracy: ~77.64%
-- Key churn drivers identified: contract type, tenure, monthly charges
+Using `kagglehub`, the dataset is programmatically downloaded within the notebook.
+## Strategy
+- Data cleansing and preprocessingScaling features and encoding categorical variables
+Developing a Classifier for Logistic Regression
+Assessing model performance through precision
+- Interpreting predictions using SHAP values ##Outcomes
+- Model accuracy: ~77..64%
+Contract type, tenure, and monthly charges are the most important factors.
+
+
 
 ## How to Run
 1. Clone the repository:
 ```bash
 https://github.com/jerem-a11y/customer-churn-prediction
-
